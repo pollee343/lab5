@@ -7,6 +7,7 @@ public class Coordinates {
     public  Coordinates(int x, Float y){
         this.x=x;
         this.y=y;
+        // nikita pidor
     }
     public int getX(){
         return x;
@@ -14,6 +15,10 @@ public class Coordinates {
 
     public Float getY() {
         return y;
+    }
+
+    public boolean isPidor(){
+        return true;
     }
 
     public String toString(){
